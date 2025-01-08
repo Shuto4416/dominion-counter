@@ -16,14 +16,14 @@ export default function Home() {
       <div className="inline-flex flex-col space-y-4 text-2xl">
         <div className="flex space-x-4">
           <div>お金: {money}</div>
-          <div className="space-x-2">
+          <div className="space-x-8">
             <button onClick={()=>{setMoney((prev)=>prev + 1)}}>+</button>
             <button onClick={()=>{setMoney((prev)=>prev - 1)}}>-</button>
           </div>
         </div>
         <div className="flex space-x-4">
           <div>アクション回数: {action}</div>
-          <div className="space-x-2">
+          <div className="space-x-8">
             <button onClick={()=>{setAction((prev)=>prev + 1)}}>+</button>
             <button onClick={()=>{setAction((prev)=>prev - 1)}}>-</button>
           </div>
